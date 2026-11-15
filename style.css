@@ -1068,4 +1068,23 @@ button {
     transform: scale(1.08);
 }
 
+/* GALLERY HEADER DECORATION */
+
+.gallery-header {
+    border: 8px ridge #ff9f1c;
+    outline: 3px solid #ffe52e;
+    border-radius: 25px;
+    background-color: rgb(117, 145, 75);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.gallery-decoration {
+    color: #ffe52e;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 8px;
+    letter-spacing: 5px;
+}
 
