@@ -1,0 +1,61 @@
+<!-- Name : Imaan Asghar
+Roll No: 26i-3282
+Section : E 
+-->
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Dabha Menu </title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+<body>
+<h1> Pait Pooja </h1>
+<p class = "tags"> Khao, Piyo, Aish Karo! </p>
+
+<img src = "images/handi.webp"  alt = "Chicken Handi" class = "img">
+<img src = "images/biryani.jpg" alt = "Spicy Chicken Biryani" class = "img">
+<img src = "images/chai.jpg" alt = "Karak Chai" class = "img">
+
+<h2> Our Menu </h2>
+<table>
+    <tr>
+        <th class = "heading"> Items </th>
+        <th class = "heading"> Price </th>
+    </tr>
+    <tr>
+        <td> Chicken Handi </td>
+        <td> 700 </td>
+        <td> <button type = "button" onclick = "orderFood('Chicken Handi')" > Order Handi </button></td>
+        
+    </tr>
+    <tr>
+        <td> Chicken Biryani </td>
+        <td> 450 </td>
+        <td> <button type = "button" onclick = "orderFood('Chicken Biryani')" > Order Biryani </button></td>
+        
+    </tr>
+    <tr>
+        <td> Karak Chai </td>
+        <td> 40 </td>
+        <td> <button type = "button" onclick = "orderFood('Karak Chai')" > Order Chai </button></td>
+        
+    </tr>
+</table>
+<p class = "tags" > Happy Big-Backing!  </p>
+
+<div class = "info">
+<h3> Our Information </h3>
+<p> Timings </p>
+<p> 8:00 am to 11:00 pm </p>
+<p> Monday to Sunday </p>
+<p> Contact us at paitpooja@gmail.com or 0312-4375890 </p>
+</div>
+<script>
+  function orderFood(item) {
+    console.log(item + " button was clicked");
+    window.alert("Your " + item + " is on the way!");
+  }
+</script>
+
+</body>
+</html>
