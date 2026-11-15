@@ -5,11 +5,6 @@
     Section: E
 */
 
-
-/* =====================================
-   ORIGINAL HOME PAGE STYLING
-   ===================================== */
-
 body {
     background-color: rgb(232, 110, 153);
 }
@@ -79,14 +74,6 @@ button {
 }
 
 
-/* =====================================
-   PAIT POOJA - MENU PAGE
-   TRUCK ART DESIGN
-   ===================================== */
-
-
-/* BACKGROUND */
-
 .menu-page {
     background-color: rgb(232, 110, 153);
     background-image:
@@ -99,9 +86,6 @@ button {
     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px;
 }
-
-
-/* HEADER - DESI SIGNBOARD */
 
 .menu-page .menu-header {
     background-color: rgb(117, 145, 75);
@@ -148,9 +132,6 @@ button {
     font-weight: bold;
     margin: 5px;
 }
-
-
-/* NAVIGATION */
 
 .menu-page .menu-nav {
     margin: 25px;
@@ -1088,3 +1069,35 @@ button {
     letter-spacing: 5px;
 }
 
+/* GALLERY TAGLINE */
+
+.gallery-page .gallery-intro {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.gallery-page .gallery-intro h2 {
+    color: #ffe52e;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 3px 3px 0px #b41263;
+    margin-bottom: 15px;
+}
+
+.gallery-page .gallery-intro p {
+    color: rgb(65, 105, 40);
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 2px white;
+}
+
+.gallery-page .gallery-intro .gallery-decoration {
+    color: #ff9f1c;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin-top: 15px;
+}
