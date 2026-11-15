@@ -1,8 +1,14 @@
+
 /*
     Name: Imaan Asghar
     Roll No: 26i-3282
     Section: E
 */
+
+
+/* =====================================
+   ORIGINAL HOME PAGE STYLING
+   ===================================== */
 
 body {
     background-color: rgb(232, 110, 153);
@@ -18,48 +24,405 @@ body {
 
 h1 {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 45px;
-    color:yellow;
-    
+    color: yellow;
 }
+
 h2 {
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color:yellow
+    color: yellow;
 }
+
 h3 {
     text-align: center;
 }
-.info{
+
+.info {
     text-align: center;
     font-style: italic;
     color: antiquewhite;
     font-size: 12px;
     margin-top: 15%;
 }
+
 .tags {
-    color:floralwhite;
+    color: floralwhite;
     text-align: center;
     font-size: 20px;
 }
+
 table {
     width: 40%;
     border: 6px solid yellow;
-    border-style:ridge;
+    border-style: ridge;
     color: aliceblue;
     text-align: left;
     background-color: rgb(117, 145, 75);
     margin: auto;
 }
-.heading{
+
+.heading {
     font-size: 20px;
     color: orange;
 }
+
 button {
-    background-color:orange;
+    background-color: orange;
     color: rgb(249, 245, 245);
     font-size: 12px;
     border-radius: 15px;
+}
+
+
+/* =====================================
+   PAIT POOJA - MENU PAGE
+   TRUCK ART DESIGN
+   ===================================== */
+
+
+/* BACKGROUND */
+
+.menu-page {
+    background-color: rgb(232, 110, 153);
+    background-image:
+        radial-gradient(rgba(255,255,0,0.18) 2px, transparent 2px),
+        radial-gradient(rgba(180,18,99,0.12) 2px, transparent 2px);
+    background-size: 25px 25px, 45px 45px;
+    background-position: 0 0, 12px 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+
+/* HEADER - DESI SIGNBOARD */
+
+.menu-page .menu-header {
+    background-color: rgb(117, 145, 75);
+    border: 7px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 35px;
+    padding: 22px;
+    margin: 20px auto 25px;
+    width: 85%;
+    box-shadow: 0 8px 0 rgba(90, 55, 20, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-page .menu-header::before {
+    content: "✿  ✦  ❀  ✦  ✿";
+    display: block;
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-bottom: 8px;
+}
+
+.menu-page .menu-header::after {
+    content: "✿  ✦  ❀  ✦  ✿";
+    display: block;
+    color: yellow;
+    font-size: 20px;
+    letter-spacing: 8px;
+    margin-top: 8px;
+}
+
+.menu-page .menu-header h1 {
+    color: yellow;
+    font-size: 48px;
+    margin: 5px;
+    text-shadow: 3px 3px 0 #a63b8e;
+}
+
+.menu-page .menu-header p {
+    color: #fff4a3;
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+/* NAVIGATION */
+
+.menu-page .menu-nav {
+    margin: 25px;
+}
+
+.menu-page .menu-nav a {
+    display: inline-block;
+    background-color: #ff9f1c;
+    color: white;
+    padding: 11px 30px;
+    margin: 6px;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 0 5px 0 #b85b18;
+    transition: 0.2s;
+}
+
+.menu-page .menu-nav a:hover {
+    background-color: #a63b8e;
+    transform: translateY(-4px) rotate(-2deg);
+    box-shadow: 0 7px 0 #6e245e;
+}
+
+
+/* MENU INTRODUCTION */
+
+.menu-page .menu-title {
+    display: inline-block;
+    color: rgb(65, 105, 40);
+    background-color: #ffe52e;
+    border: 5px double #ff9f1c;
+    border-radius: 40px;
+    padding: 8px 35px;
+    font-size: 35px;
+    margin: 10px auto;
+    box-shadow: 0 5px 0 rgba(90, 55, 20, 0.2);
+    text-shadow: 1px 1px 0 white;
+}
+
+.menu-page .menu-intro {
+    color: #fff5a5;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0 35px;
+    text-shadow: 1px 2px 2px #8b2453;
+}
+
+
+/* FOOD SECTIONS */
+
+.menu-page .food-section {
+    width: 90%;
+    max-width: 1050px;
+    margin: 40px auto;
+    padding: 25px 15px 25px;
+    border-radius: 30px;
+    border: 7px ridge yellow;
+    outline: 3px solid #ff9f1c;
+    position: relative;
+    box-shadow: 0 8px 0 rgba(90, 55, 20, 0.25);
+}
+
+/* Decorative truck-art pattern */
+
+.menu-page .food-section::before {
+    content: "✿  ✦  ❀  ✦  ✿";
+    display: block;
+    color: yellow;
+    font-size: 21px;
+    letter-spacing: 9px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #a63b8e;
+}
+
+.menu-page .food-section::after {
+    content: "❀  ✦  ✿  ✦  ❀";
+    display: block;
+    color: yellow;
+    font-size: 19px;
+    letter-spacing: 9px;
+    margin-top: 22px;
+}
+
+.menu-page .food-section h2 {
+    display: inline-block;
+    background-color: #ffe52e;
+    color: rgb(65, 105, 40);
+    padding: 9px 32px;
+    border: 4px double #ff9f1c;
+    border-radius: 30px;
+    font-size: 26px;
+    margin: 0 auto 25px;
+    box-shadow: 0 5px 0 rgba(90, 55, 20, 0.2);
+}
+
+
+/* SECTION COLOURS - KEPT AS PROVIDED */
+
+.menu-page .nashta {
+    background-color: rgb(97, 121, 61);
+}
+
+.menu-page .main-course {
+    background-color: #e47d22;
+}
+
+.menu-page .drinks {
+    background-color: rgb(198, 70, 115);
+}
+
+
+/* FOOD CARD LAYOUT */
+
+.menu-page .food-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-page .food-card {
+    width: 230px;
+    min-height: 175px;
+    padding: 17px;
+    border-radius: 22px;
+    border: 4px dotted yellow;
+    outline: 3px solid rgba(255, 255, 255, 0.65);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.25s;
+    box-shadow: 0 6px 0 rgba(70, 40, 20, 0.25);
+    position: relative;
+}
+
+/* Little decorative flower on each card */
+
+.menu-page .food-card::before {
+    content: "✿";
+    color: yellow;
+    font-size: 19px;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+}
+
+.menu-page .food-card:hover {
+    transform: translateY(-7px) rotate(-1deg);
+    box-shadow: 0 10px 0 rgba(70, 40, 20, 0.25);
+}
+
+
+/* FOOD CARD COLOURS */
+
+.menu-page .food-card:nth-child(4n+1) {
+    background-color: #b41263;
+}
+
+.menu-page .food-card:nth-child(4n+2) {
+    background-color: rgb(65, 105, 40);
+}
+
+.menu-page .food-card:nth-child(4n+3) {
+    background-color: #ff9f1c;
+}
+
+.menu-page .food-card:nth-child(4n+4) {
+    background-color: #a63b8e;
+}
+
+
+/* FOOD NAMES */
+
+.menu-page .food-card h3 {
+    color: #fff16b;
+    font-size: 21px;
+    margin: 12px 5px 5px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+
+/* FOOD DESCRIPTIONS */
+
+.menu-page .food-card p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 8px 2px;
+}
+
+
+/* PRICE LABELS */
+
+.menu-page .food-card .price {
+    display: inline-block;
+    align-self: center;
+    background-color: #ffe52e;
+    color: rgb(65, 105, 40);
+    border: 3px double #ff9f1c;
+    border-radius: 25px;
+    padding: 6px 17px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px auto 0;
+    box-shadow: 0 4px 0 rgba(90, 55, 20, 0.2);
+}
+
+
+/* FOOTER */
+
+.menu-page .menu-footer {
+    background-color: rgb(117, 145, 75);
+    color: yellow;
+    border: 6px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 30px;
+    padding: 18px;
+    margin: 40px auto 20px;
+    width: 85%;
+    box-shadow: 0 7px 0 rgba(90, 55, 20, 0.25);
+    position: relative;
+}
+
+.menu-page .menu-footer::before,
+.menu-page .menu-footer::after {
+    content: "✿  ✦  ❀";
+    color: yellow;
+    font-size: 23px;
+    margin: 0 15px;
+}
+
+.menu-page .menu-footer h2,
+.menu-page .menu-footer p {
+    color: yellow;
+}
+
+
+/* SMALL SCREEN SUPPORT */
+
+@media (max-width: 600px) {
+
+    .menu-page .menu-header,
+    .menu-page .menu-footer {
+        width: 90%;
+    }
+
+    .menu-page .menu-header h1 {
+        font-size: 35px;
+    }
+
+    .menu-page .food-section {
+        width: 90%;
+        padding: 18px 10px;
+    }
+
+    .menu-page .food-card {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .menu-page .menu-title {
+        font-size: 27px;
+    }
+
+    .menu-page .menu-nav a {
+        padding: 9px 20px;
+        font-size: 15px;
+    }
 }
