@@ -1,62 +1,138 @@
 
-<!-- Name : Imaan Asghar
+<!-- Name: Imaan Asghar
 Roll No: 26i-3282
-Section : E 
+Section: E
 -->
+
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title> Dabha Menu </title>
-        <link rel = "stylesheet" href = "style.css">
-    </head>
-<body>
-<h1>پیٹ پوجا</h1>
-<p class = "tags"> Khao, Piyo, Aish Karo! </p>
+<head>
+    <title>Pait Pooja - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
 
-<img src = "images/handi.webp"  alt = "Chicken Handi" class = "img">
-<img src = "images/biryani.jpg" alt = "Spicy Chicken Biryani" class = "img">
-<img src = "images/chai.jpg" alt = "Karak Chai" class = "img">
+<body class="home-page">
 
-<h2> Our Menu </h2>
-<table>
-    <tr>
-        <th class = "heading"> Items </th>
-        <th class = "heading"> Price </th>
-    </tr>
-    <tr>
-        <td> Chicken Handi </td>
-        <td> 700 </td>
-        <td> <button type = "button" onclick = "orderFood('Chicken Handi')" > Order Handi </button></td>
-        
-    </tr>
-    <tr>
-        <td> Chicken Biryani </td>
-        <td> 450 </td>
-        <td> <button type = "button" onclick = "orderFood('Chicken Biryani')" > Order Biryani </button></td>
-        
-    </tr>
-    <tr>
-        <td> Karak Chai </td>
-        <td> 40 </td>
-        <td> <button type = "button" onclick = "orderFood('Karak Chai')" > Order Chai </button></td>
-        
-    </tr>
-</table>
-<p class = "tags" > Happy Big-Backing!  </p>
+    <!-- HEADER -->
+    <header class="home-header">
+        <div class="home-decoration">✿ ✦ ❀ ✦ ✿</div>
+        <h1>پیٹ پوجا</h1>
+        <p>Khao, Piyo, Aish Karo!</p>
+        <div class="home-decoration">❀ ✦ ✿ ✦ ❀</div>
+    </header>
 
-<div class = "info">
-<h3> Our Information </h3>
-<p> Timings </p>
-<p> 8:00 am to 11:00 pm </p>
-<p> Monday to Sunday </p>
-<p> Contact us at paitpooja@gmail.com or 0312-4375890 </p>
-</div>
-<script>
-  function orderFood(item) {
-    console.log(item + " button was clicked");
-    window.alert("Your " + item + " is on the way!");
-  }
-</script>
+    <!-- NAVIGATION BAR -->
+    <nav class="home-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <!-- WELCOME SECTION -->
+    <section class="home-welcome">
+        <h2>Welcome to Pait Pooja!</h2>
+        <p>
+            Bringing you the taste of desi food, fresh from our kitchen
+            to your table. Good food, good vibes and full-on desi style!
+        </p>
+        <div class="home-stars">✦ ✿ ✦ ✿ ✦</div>
+    </section>
+
+    <!-- FOOD PICTURES -->
+    <section class="home-food">
+        <h2>Our Specialties</h2>
+
+        <div class="home-images">
+            <div class="home-image-card">
+                <img src="images/handi.webp" alt="Chicken Handi">
+                <h3>Chicken Handi</h3>
+                <p>Rich, creamy and full of flavour!</p>
+            </div>
+
+            <div class="home-image-card">
+                <img src="images/biryani.jpg" alt="Spicy Chicken Biryani">
+                <h3>Chicken Biryani</h3>
+                <p>Spicy, aromatic and absolutely delicious!</p>
+            </div>
+
+            <div class="home-image-card">
+                <img src="images/chai.jpg" alt="Karak Chai">
+                <h3>Karak Chai</h3>
+                <p>A perfect cup of desi chai!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU TABLE -->
+    <section class="home-menu">
+        <h2>Our Best Sellers</h2>
+
+        <table>
+            <tr>
+                <th class="heading">Items</th>
+                <th class="heading">Price (Rs.)</th>
+                <th class="heading">Order</th>
+            </tr>
+
+            <tr>
+                <td>Chicken Handi</td>
+                <td>700</td>
+                <td>
+                    <button type="button" onclick="orderFood('Chicken Handi')">
+                        Order Handi
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Chicken Biryani</td>
+                <td>450</td>
+                <td>
+                    <button type="button" onclick="orderFood('Chicken Biryani')">
+                        Order Biryani
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Karak Chai</td>
+                <td>40</td>
+                <td>
+                    <button type="button" onclick="orderFood('Karak Chai')">
+                        Order Chai
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+        <p class="home-tagline">Happy Big-Backing!</p>
+    </section>
+
+    <!-- INFORMATION -->
+    <footer class="home-info">
+        <div class="home-decoration">✿ ✦ ❀ ✦ ✿</div>
+        <h2>Our Information</h2>
+
+        <p><strong>Opening Hours</strong></p>
+        <p>8:00 am to 11:00 pm</p>
+        <p>Monday to Sunday</p>
+
+        <div class="home-divider">✦ ✿ ✦</div>
+
+        <p><strong>Contact Us</strong></p>
+        <p>Email: paitpooja@gmail.com</p>
+        <p>Phone: 0312-4375890</p>
+
+        <div class="home-decoration">❀ ✦ ✿ ✦ ❀</div>
+    </footer>
+
+    <script>
+        function orderFood(item) {
+            console.log(item + " button was clicked");
+            window.alert("Your " + item + " is on the way!");
+        }
+    </script>
 
 </body>
 </html>
