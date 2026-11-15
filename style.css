@@ -426,3 +426,646 @@ button {
         font-size: 15px;
     }
 }
+/* =====================================
+   PAIT POOJA - HOME PAGE REDESIGN
+   ===================================== */
+
+.home-page {
+    background-color: rgb(232, 110, 153);
+    background-image:
+        radial-gradient(rgba(255,255,0,0.18) 2px, transparent 2px),
+        radial-gradient(rgba(180,18,99,0.12) 2px, transparent 2px);
+    background-size: 25px 25px, 45px 45px;
+    background-position: 0 0, 12px 12px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+.home-page .home-header {
+    background-color: rgb(117, 145, 75);
+    border: 7px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 35px;
+    padding: 18px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 8px 0 rgba(90, 55, 20, 0.25);
+}
+
+.home-page .home-header h1 {
+    color: yellow;
+    font-size: 55px;
+    margin: 8px;
+    text-shadow: 3px 3px 0 #a63b8e;
+}
+
+.home-page .home-header p {
+    color: #fff4a3;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 8px;
+}
+
+.home-page .home-decoration {
+    color: yellow;
+    font-size: 22px;
+    letter-spacing: 8px;
+}
+
+
+/* NAVIGATION */
+
+.home-page .home-nav {
+    margin: 25px auto;
+}
+
+.home-page .home-nav a {
+    display: inline-block;
+    background-color: #ff9f1c;
+    color: white;
+    padding: 12px 30px;
+    margin: 6px;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 0 5px 0 #b85b18;
+    transition: 0.2s;
+}
+
+.home-page .home-nav a:hover {
+    background-color: #a63b8e;
+    transform: translateY(-4px);
+}
+
+
+
+/* WELCOME SECTION */
+
+.home-page .home-welcome {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #b41263;
+    border: 5px dotted yellow;
+    outline: 3px solid #ff9f1c;
+    border-radius: 30px;
+    box-shadow: 0 6px 0 rgba(90, 55, 20, 0.2);
+}
+
+.home-page .home-welcome h2 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.home-page .home-welcome p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.home-page .home-stars {
+    color: yellow;
+    font-size: 22px;
+    letter-spacing: 10px;
+}
+
+
+/* FOOD PICTURE SECTION */
+
+.home-page .home-food {
+    margin: 40px auto;
+}
+
+.home-page .home-food h2,
+.home-page .home-menu h2 {
+    display: inline-block;
+    background-color: #ffe52e;
+    color: rgb(65, 105, 40);
+    border: 4px double #ff9f1c;
+    border-radius: 30px;
+    padding: 9px 35px;
+    font-size: 28px;
+    box-shadow: 0 5px 0 rgba(90, 55, 20, 0.2);
+}
+
+
+/* IMAGE CARDS */
+
+.home-page .home-images {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 25px auto;
+}
+
+.home-page .home-image-card {
+    background-color: rgb(65, 105, 40);
+    width: 270px;
+    padding: 15px;
+    border: 4px dotted yellow;
+    outline: 3px solid white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 0 rgba(70, 40, 20, 0.25);
+    transition: 0.25s;
+}
+
+.home-page .home-image-card:nth-child(2) {
+    background-color: #b41263;
+}
+
+.home-page .home-image-card:nth-child(3) {
+    background-color: #a63b8e;
+}
+
+.home-page .home-image-card:hover {
+    transform: translateY(-7px) rotate(-1deg);
+}
+
+.home-page .home-image-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin: 0;
+    border: 5px ridge #ff9f1c;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+.home-page .home-image-card h3 {
+    color: yellow;
+    font-size: 21px;
+}
+
+.home-page .home-image-card p {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* BEST SELLERS TABLE */
+
+.home-page .home-menu {
+    margin: 40px auto;
+}
+
+.home-page .home-menu table {
+    width: 80%;
+    max-width: 750px;
+    margin: 25px auto;
+    border: 6px ridge yellow;
+    border-radius: 15px;
+    border-spacing: 5px;
+    background-color: rgb(65, 105, 40);
+    color: white;
+    text-align: center;
+    box-shadow: 0 7px 0 rgba(90, 55, 20, 0.2);
+}
+
+.home-page .home-menu th,
+.home-page .home-menu td {
+    padding: 13px;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 8px;
+}
+
+.home-page .home-menu .heading {
+    color: yellow;
+    font-size: 19px;
+}
+
+.home-page .home-menu button {
+    background-color: #ff9f1c;
+    color: white;
+    border: 3px solid yellow;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.home-page .home-menu button:hover {
+    background-color: #b41263;
+    transform: scale(1.05);
+}
+
+.home-page .home-tagline {
+    color: yellow;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* INFORMATION FOOTER */
+
+.home-page .home-info {
+    background-color: rgb(117, 145, 75);
+    border: 6px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 30px;
+    width: 85%;
+    margin: 40px auto 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 7px 0 rgba(90, 55, 20, 0.25);
+}
+
+.home-page .home-info h2 {
+    color: yellow;
+    font-size: 27px;
+}
+
+.home-page .home-info p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.home-page .home-divider {
+    color: yellow;
+    font-size: 22px;
+    margin: 15px;
+    letter-spacing: 10px;
+}
+
+
+/* MOBILE SCREEN */
+
+@media (max-width: 600px) {
+
+    .home-page .home-header,
+    .home-page .home-info,
+    .home-page .home-welcome {
+        width: 90%;
+    }
+
+    .home-page .home-header h1 {
+        font-size: 38px;
+    }
+
+    .home-page .home-nav a {
+        padding: 9px 17px;
+        font-size: 14px;
+    }
+
+    .home-page .home-image-card {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .home-page .home-menu table {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .home-page .home-menu th,
+    .home-page .home-menu td {
+        padding: 7px;
+    }
+}
+
+
+/* =====================================
+   PAIT POOJA - GALLERY PAGE
+   ===================================== */
+
+.gallery-page {
+    background-color: rgb(232, 110, 153);
+    background-image:
+        radial-gradient(rgba(255,255,0,0.18) 2px, transparent 2px),
+        radial-gradient(rgba(180,18,99,0.12) 2px, transparent 2px);
+    background-size: 25px 25px, 45px 45px;
+    background-position: 0 0, 12px 12px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* HEADER */
+
+.gallery-page .gallery-header {
+    background-color: rgb(117, 145, 75);
+    border: 7px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 35px;
+    padding: 18px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 8px 0 rgba(90, 55, 20, 0.25);
+}
+
+.gallery-page .gallery-header h1 {
+    color: yellow;
+    font-size: 48px;
+    margin: 8px;
+    text-shadow: 3px 3px 0 #a63b8e;
+}
+
+.gallery-page .gallery-header p {
+    color: #fff4a3;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 8px;
+}
+
+.gallery-page .gallery-decoration {
+    color: yellow;
+    font-size: 21px;
+    letter-spacing: 8px;
+}
+
+
+/* NAVIGATION */
+
+.gallery-page .gallery-nav {
+    margin: 25px auto;
+}
+
+.gallery-page .gallery-nav a {
+    display: inline-block;
+    background-color: #ff9f1c;
+    color: white;
+    padding: 12px 30px;
+    margin: 6px;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    box-shadow: 0 5px 0 #b85b18;
+    transition: 0.2s;
+}
+
+.gallery-page .gallery-nav a:hover {
+    background-color: #a63b8e;
+    transform: translateY(-4px);
+}
+
+
+/* INTRODUCTION */
+
+.gallery-page .gallery-intro {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #b41263;
+    border: 5px dotted yellow;
+    outline: 3px solid #ff9f1c;
+    border-radius: 30px;
+    box-shadow: 0 6px 0 rgba(90, 55, 20, 0.2);
+}
+
+.gallery-page .gallery-intro h2 {
+    color: yellow;
+    font-size: 30px;
+}
+
+.gallery-page .gallery-intro p {
+    color: white;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+/* GALLERY SECTION */
+
+.gallery-page .gallery-content {
+    margin: 40px auto;
+    width: 95%;
+}
+
+.gallery-page .gallery-section-title {
+    display: inline-block;
+    background-color: #ffe52e;
+    color: rgb(65, 105, 40);
+    border: 4px double #ff9f1c;
+    border-radius: 30px;
+    padding: 10px 35px;
+    font-size: 28px;
+    box-shadow: 0 5px 0 rgba(90, 55, 20, 0.2);
+}
+
+
+/* GALLERY GRID */
+
+.gallery-page .gallery-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 30px auto;
+}
+
+
+/* GALLERY CARDS */
+
+.gallery-page .gallery-card {
+    width: 290px;
+    background-color: #b41263;
+    border: 5px dotted yellow;
+    outline: 3px solid white;
+    border-radius: 25px;
+    padding: 14px;
+    box-sizing: border-box;
+    box-shadow: 0 7px 0 rgba(70, 40, 20, 0.25);
+    transition: 0.25s;
+}
+
+.gallery-page .gallery-card:nth-child(2) {
+    background-color: rgb(65, 105, 40);
+}
+
+.gallery-page .gallery-card:nth-child(3) {
+    background-color: #a63b8e;
+}
+
+.gallery-page .gallery-card:hover {
+    transform: translateY(-8px) rotate(-1deg);
+    box-shadow: 0 11px 0 rgba(70, 40, 20, 0.25);
+}
+
+
+/* GALLERY IMAGES */
+
+.gallery-page .gallery-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: 5px ridge #ff9f1c;
+    border-radius: 18px;
+    box-sizing: border-box;
+}
+
+
+/* GALLERY CAPTIONS */
+
+.gallery-page .gallery-caption h3 {
+    color: yellow;
+    font-size: 21px;
+    margin: 12px 5px;
+}
+
+.gallery-page .gallery-caption p {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+/* GALLERY MESSAGE */
+
+.gallery-page .gallery-message {
+    background-color: #ff9f1c;
+    border: 5px double yellow;
+    outline: 3px solid #b41263;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 750px;
+    margin: 45px auto;
+    padding: 18px;
+    box-shadow: 0 6px 0 rgba(90, 55, 20, 0.2);
+}
+
+.gallery-page .gallery-message h2 {
+    color: white;
+    font-size: 27px;
+}
+
+.gallery-page .gallery-message p {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.gallery-page .gallery-footer {
+    background-color: rgb(117, 145, 75);
+    border: 6px ridge #ff9f1c;
+    outline: 3px solid yellow;
+    border-radius: 30px;
+    width: 85%;
+    margin: 40px auto 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 7px 0 rgba(90, 55, 20, 0.25);
+}
+
+.gallery-page .gallery-footer h2 {
+    color: yellow;
+    font-size: 27px;
+}
+
+.gallery-page .gallery-footer p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* MOBILE SUPPORT */
+
+@media (max-width: 600px) {
+
+    .gallery-page .gallery-header,
+    .gallery-page .gallery-footer,
+    .gallery-page .gallery-intro {
+        width: 90%;
+    }
+
+    .gallery-page .gallery-header h1 {
+        font-size: 38px;
+    }
+
+    .gallery-page .gallery-nav a {
+        padding: 9px 17px;
+        font-size: 14px;
+    }
+
+    .gallery-page .gallery-card {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .gallery-page .gallery-message {
+        width: 90%;
+    }
+}
+
+/* HOME PAGE - REMOVE WELCOME BOX */
+
+.home-page .home-welcome {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* GALLERY PAGE - REMOVE INTRO BOX */
+
+.gallery-page .gallery-intro {
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* REMOVE DARK PINK FROM HOME FOOD CARDS */
+
+.home-page .home-image-card:nth-child(2) {
+    background-color: #ff9f1c;
+}
+
+/* REMOVE DARK PINK FROM GALLERY FOOD CARDS */
+
+.gallery-page .gallery-card:nth-child(1) {
+    background-color: rgb(65, 105, 40);
+}
+
+
+/* BIGGER AND MORE VISIBLE BUTTONS */
+
+.menu-page .menu-footer button,
+.gallery-page .gallery-message button {
+    background-color: #ffe52e;
+    color: rgb(65, 105, 40);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 35px;
+    border: 4px ridge #ff9f1c;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 4px 4px 0px #b41263;
+}
+
+.menu-page .menu-footer button:hover,
+.gallery-page .gallery-message button:hover {
+    background-color: #ff9f1c;
+    color: white;
+    transform: scale(1.08);
+}
+
+
